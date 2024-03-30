@@ -15,7 +15,8 @@ class ResultadoActivity : AppCompatActivity() {
         titleDensidadeCorporal.text = imc.nome.toString()
         textViewHeaderDensidadeCorporal.text = imc.calcular()
         textViewResultadoDensidadeCorporal.text = imc.imc.toString()
-
+        textViewPeso.text = "Peso: ${imc.peso} kg"
+        textViewAltura.text = "Altura: ${imc.altura} cm"
 
     }
 }
